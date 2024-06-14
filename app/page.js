@@ -7,10 +7,11 @@ export default function Home() {
             <p className="text-lg mt-5 opacity-50">
                 Recommended by all minimalists.
             </p>
-
-            <button className="duration-200 mt-16 py-3 px-5 rounded-lg border border-neutral-700 hover:bg-neutral-800/30">
-                <Link href="/todos">Create a todo -&gt;</Link>
-            </button>
+            <Link href="/todos">
+                <button className="duration-200 mt-16 py-3 px-5 rounded-lg border border-neutral-700 hover:bg-neutral-800/30">
+                    Create a todo -&gt;
+                </button>
+            </Link>
         </main>
     );
 }
