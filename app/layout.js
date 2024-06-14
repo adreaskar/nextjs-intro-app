@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     const links = [
         { href: '/', label: 'Home' },
         { href: '/todos', label: 'Todos' },
-        { href: '/completed', label: 'Completed' },
+        { href: '/create-todo', label: 'Create a Todo' },
     ];
 
     return (
