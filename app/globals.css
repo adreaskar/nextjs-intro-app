@@ -7,7 +7,26 @@
     --background-rgb: 10, 10, 10;
 }
 
+@layer utilities {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    * {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
+}
+
 body {
     color: rgb(var(--foreground-rgb));
     background: rgb(var(--background-rgb));
+    scrollbar-width: thin;
+}
+
+input {
+    background: rgb(var(--background-rgb));
+    color: rgb(var(--foreground-rgb));
+    @apply border-2 border-neutral-700 rounded-sm p-1 mt-2 focus:outline-none;
 }
