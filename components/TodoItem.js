@@ -7,7 +7,7 @@ const TodoItem = ({ todo }) => {
     return (
         <div
             onClick={() => checkTodo(todo.id)}
-            className={`mt-2 flex justify-between items-center p-2 hover:cursor-pointer hover:bg-neutral-700/30 rounded-md ${
+            className={`mt-2 select-none flex justify-between items-center p-2 hover:cursor-pointer hover:bg-neutral-700/30 rounded-md ${
                 todo.completed && 'text-neutral-500'
             }`}
         >
