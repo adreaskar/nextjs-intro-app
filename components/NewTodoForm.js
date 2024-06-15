@@ -1,4 +1,5 @@
 import { addTodo } from '@/utils/actions';
+import { FiPlus } from 'react-icons/fi';
 
 const NewTodoForm = () => {
     return (
@@ -20,6 +21,7 @@ const NewTodoForm = () => {
                     type="submit"
                 >
                     Add Todo
+                    <FiPlus className="inline-block ml-1" />
                 </button>
             </form>
         </div>

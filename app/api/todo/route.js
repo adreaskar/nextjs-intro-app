@@ -9,6 +9,9 @@ export const GET = async (request) => {
 
 export const POST = async (request) => {
     const data = await request.json();
+    const todo = await db.todo.create({
+        data,
+    });
 
-    return NextResponse.json(data);
+    return NextResponse.json(todo);
 };
