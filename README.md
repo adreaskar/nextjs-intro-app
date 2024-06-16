@@ -1,6 +1,6 @@
 # Full Stack apps with Next.js 14
 
-The main branch contains a final version of the application similar to the one built in the ["Full Stack apps with Next.js 14"](https://nextjs-intro.notion.site/Intro-to-Next-js-14-fdd134403a344bca8bd19f8015fffdf5?pvs=74) course.
+The main branch contains a final version of the application similar to the one built in the ["Full Stack apps with Next.js 14"](https://nextjs-intro.notion.site/Full-Stack-apps-with-Next-js-14-fdd134403a344bca8bd19f8015fffdf5) course.
 
 After cloning the repo, execute the following commands:
 
