@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Home() {
     return (
-        <main className="items-center py-14 w-1/2 m-auto">
+        <main className="items-center">
             <h1 className="text-6xl font-bold">The best todo app out there.</h1>
             <p className="text-lg mt-5 opacity-50">
                 Recommended by all minimalists

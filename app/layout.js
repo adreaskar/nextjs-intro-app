@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
                     </nav>
                 </header>
 
-                <div>{children}</div>
+                <main className="w-1/2 m-auto py-14">{children}</main>
 
                 <footer className="text-white/50 absolute bottom-0 p-7 w-screen text-center">
                     Andreas Karabetian • Department of Digital Systems •{' '}
